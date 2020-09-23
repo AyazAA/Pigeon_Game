@@ -1,0 +1,57 @@
+fileFormatVersion: 2
+guid: 73fce6405203a7b40b2189fd63f2b776
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: "gameObject/\u043B\u0435\u0432\u043E\u0435 \u041A\u0440\u044B\u043B\u043E"
+    400000: "gameObject/\u043B\u0435\u0432\u043E\u0435 \u041A\u0440\u044B\u043B\u043E/Transform"
+    21200000: "gameObject/\u043B\u0435\u0432\u043E\u0435 \u041A\u0440\u044B\u043B\u043E/SpriteRenderer"
+    21300000: sprite
+    100100000: gameObject
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
+  svgType: 0
+  texturedSpriteMeshType: 0
+  svgPixelsPerUnit: 100
+  gradientResolution: 128
+  alignment: 9
+  customPivot: {x: 0.68439025, y: 0.96417177}
+  generatePhysicsShape: 0
+  preserveViewport: 0
+  advancedMode: 0
+  predefinedResolutionIndex: 1
+  targetResolution: 1080
+  resolutionMultiplier: 1
+  stepDistance: 10
+  samplingStepDistance: 100
+  maxCordDeviationEnabled: 0
+  maxCordDeviation: 1
+  maxTangentAngleEnabled: 0
+  maxTangentAngle: 5
+  keepTextureAspectRatio: 1
+  textureSize: 256
+  textureWidth: 256
+  textureHeight: 256
+  wrapMode: 0
+  filterMode: 1
+  sampleCount: 4
+  preserveSVGImageAspect: 0
+  useSVGPixelsPerUnit: 0
+  spriteData:
+    TessellationDetail: 0
+    SpriteRect:
+      name: "\u043B\u0435\u0432\u043E\u0435 \u041A\u0440\u044B\u043B\u043ESprite"
+      originalName: 
+      pivot: {x: 0.68439025, y: 0.96417177}
+      alignment: 9
+      border: {x: 0, y: 0, z: 0, w: 0}
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 59
+        height: 100
+      spriteID: 0863f5d23fad37f419486d5b198c188f
+    PhysicsOutlines: []

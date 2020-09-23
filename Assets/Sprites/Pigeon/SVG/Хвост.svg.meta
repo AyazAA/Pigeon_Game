@@ -1,0 +1,57 @@
+fileFormatVersion: 2
+guid: 300fb7c934f87104db3ad1a15a19c26d
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: "gameObject/\u0425\u0432\u043E\u0441\u0442"
+    400000: "gameObject/\u0425\u0432\u043E\u0441\u0442/Transform"
+    21200000: "gameObject/\u0425\u0432\u043E\u0441\u0442/SpriteRenderer"
+    21300000: sprite
+    100100000: gameObject
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
+  svgType: 0
+  texturedSpriteMeshType: 0
+  svgPixelsPerUnit: 100
+  gradientResolution: 128
+  alignment: 9
+  customPivot: {x: 0.9707603, y: 0.6859268}
+  generatePhysicsShape: 0
+  preserveViewport: 0
+  advancedMode: 0
+  predefinedResolutionIndex: 1
+  targetResolution: 1080
+  resolutionMultiplier: 1
+  stepDistance: 10
+  samplingStepDistance: 100
+  maxCordDeviationEnabled: 0
+  maxCordDeviation: 1
+  maxTangentAngleEnabled: 0
+  maxTangentAngle: 5
+  keepTextureAspectRatio: 1
+  textureSize: 256
+  textureWidth: 256
+  textureHeight: 256
+  wrapMode: 0
+  filterMode: 1
+  sampleCount: 4
+  preserveSVGImageAspect: 0
+  useSVGPixelsPerUnit: 0
+  spriteData:
+    TessellationDetail: 0
+    SpriteRect:
+      name: "\u0425\u0432\u043E\u0441\u0442Sprite"
+      originalName: 
+      pivot: {x: 0.9707603, y: 0.6859268}
+      alignment: 9
+      border: {x: 0, y: 0, z: 0, w: 0}
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 46
+      spriteID: fa0fb2b7e3c933b41aa0ace6934d1092
+    PhysicsOutlines: []
