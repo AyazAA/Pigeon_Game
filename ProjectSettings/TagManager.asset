@@ -7,6 +7,9 @@ TagManager:
   - Car
   - Poo
   - Road
+  - Score
+  - ScoreGO
+  - ScoreText
   layers:
   - Default
   - TransparentFX

@@ -5,11 +5,17 @@ using UnityEngine.UI;
 
 public class Poo : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)//разобраться в чем разница в интер OnCollisionEnter2D,OnTriggerEnter2D
+    void Start()
+    {
+        SceneLoader.dontDestroyObjects.Add(this.gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.tag == "Road")
         {
             Destroy(transform.gameObject);
+            SceneLoader.dontDestroyObjects.Remove(transform.gameObject);
         }
     }
 }

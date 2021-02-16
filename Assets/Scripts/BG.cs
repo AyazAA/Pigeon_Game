@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class BG : MonoBehaviour
 {
-    public Transform fon;
+    public int speed;
     public float distance;
     public float delta;
-    public int speed; 
-    
-    void Start()
-    {   
-        
-    }
-    
+    public Transform fon;
+
     void Update()
     {
         MoveBG();

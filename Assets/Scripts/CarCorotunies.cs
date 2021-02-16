@@ -4,18 +4,13 @@ using UnityEngine;
 
 public class CarCorotunies : MonoBehaviour
 {
-    public GameObject carPrehab;
-    public int minTimeWait = 2;
-    public int maxTimeWait = 4;
+    public GameObject[] carPrehabs = new GameObject[5];
+    private int minTimeWait = 2;
+    private int maxTimeWait = 4;
 
     void Start()
     {
-        StartCoroutine("CreateCar");
-    }
-    
-    void Update()
-    {
-        
+        StartCoroutine(CreateCar());
     }
 
     IEnumerator CreateCar()
@@ -23,7 +18,7 @@ public class CarCorotunies : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(Random.Range(minTimeWait,maxTimeWait));
-            Instantiate(carPrehab);
+            DontDestroyOnLoad(Instantiate(carPrehabs[Random.Range(0, carPrehabs.Length)]));
         }
     }
 }
